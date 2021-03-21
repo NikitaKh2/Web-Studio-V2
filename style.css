@@ -1,3 +1,10 @@
+* {
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+}
 body {
     margin: 0;
 }
@@ -9,11 +16,7 @@ header {
     padding-top: 10px;
 }
 nav {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
     letter-spacing: 0.02em;   
     color: #212121;    
 }
@@ -60,31 +63,28 @@ address a:hover {
 }
 
 .black {
-    background-color: #2F303A;
+    background: url(images/backGround.png) ;
     display: block;
-    margin: 10%;
-    padding: 10%;
-    margin-right: 0px;
-    margin-left: 0px;
+    padding-top: 100px;
+    padding-right: 0;
+    padding-bottom: 100px;
+    padding-left: 0;
     margin-top: 15px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    margin-left: 0px;
     text-align: center;
 }
 .black h1 {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
-    
-
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
 }
 .black a {
     color: #FFFFFF;
-    font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 30px;
@@ -101,31 +101,107 @@ main {
 main ul li {
     list-style-type: none;
     padding-bottom: 5px;
-    font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #212121;
     width: 25%;
     float: left;
 }
+main ul li .photo {
+    text-align: center;
+    margin: 0px;
+    margin-right: 10px;
+    background-color: rgb(192,192,192);
+}
 main ul li h3 {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 0px;
 }
 main ul li p {
-    font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.03em;
+    font-weight: normal;
+    line-height: 24px;
+    margin-top: 0px;
+    margin-right: 10px;
 }
+.gallery {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.grey {
+    color: #757575;
+}
+main h3 {
+    color: #212121;
+}
+h2 {
+    text-align: center;
+}
+.ourWork{
+    width: 33%;
+}
+main h2 {
+    font-weight: 700;
+    line-height: 42px;
+}
+section{
+    display: block;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 450px;
+    margin-top: 15px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+section.team {
+    background-color: #F5F4FA;
+}
+section.team ul li {
+    list-style-type: none;
+    padding-bottom: 5px;
+    font-weight: bold;
+    color: #212121;
+    width: 25%;
+    float: left;
+    background-color: #FFFFFF;
+    margin-right: 10px;
+    width: 23%;
+}
+.worker {
+    width: 100%;
+    height: auto;
+}
+h2 {
+    list-style-type: none;
+    font-weight: bold;
+    color: #212121;
+    font-size: 36px;
+}
+section.team ul li h5 {
+    text-align: center;
+}
+section.team ul li p.grey {
+    text-align: center;
+}
+section ul {
+    padding-left: 10%;
+    padding-right: 5%;
+}
+footer {
+    background-color: #2F303A;
+    padding-right: 0px;
+    padding-left: 0px;
+    display: block;
+}
+footer * {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 10%;
+
+}
+ul {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
