@@ -83,7 +83,7 @@ address a:hover {
     text-transform: uppercase;
     color: #FFFFFF;
 }
-.black a {
+.button {
     color: #FFFFFF;
     font-weight: bold;
     font-size: 16px;
@@ -110,7 +110,7 @@ main ul li .photo {
     text-align: center;
     margin: 0px;
     margin-right: 10px;
-    background-color: rgb(192,192,192);
+    background-color: #F5F4FA;
 }
 main ul li h3 {
     font-weight: bold;
@@ -126,6 +126,12 @@ main ul li p {
 .gallery {
     padding-left: 10%;
     padding-right: 10%;
+}
+.photo {
+    position: relative;
+}
+.description {
+    position: absolute;
 }
 .grey {
     color: #757575;
@@ -143,7 +149,7 @@ main h2 {
     font-weight: 700;
     line-height: 42px;
 }
-section{
+.team {
     display: block;
     padding-top: 10px;
     padding-right: 0px;
@@ -154,10 +160,10 @@ section{
     margin-bottom: 0px;
     margin-left: 0px;
 }
-section.team {
+.team {
     background-color: #F5F4FA;
 }
-section.team ul li {
+.team ul li {
     list-style-type: none;
     padding-bottom: 5px;
     font-weight: bold;
@@ -178,30 +184,125 @@ h2 {
     color: #212121;
     font-size: 36px;
 }
+.close {
+    opacity: 1;
+}
 section.team ul li h5 {
     text-align: center;
 }
 section.team ul li p.grey {
     text-align: center;
 }
-section ul {
+.team ul {
     padding-left: 10%;
     padding-right: 5%;
 }
+.client {
+    padding-bottom: 240px;
+}
+.client h3 {
+    text-align: center;
+}
+.client ul {
+    list-style-type: none;
+    padding-left: 10%;
+}
+.client ul li {
+    float: left;
+    margin: 10px;
+    width: 14%;
+    padding: 0px;
+}
 footer {
     background-color: #2F303A;
-    padding-right: 0px;
-    padding-left: 0px;
-    display: block;
 }
-footer * {
-    margin-top: 10px;
-    margin-bottom: 0px;
-    margin-left: 10%;
-
+footer .col-6 {
+    margin: auto;
+}
+.container a {
+    padding: 7px;
+}
+.col-6 form input {
+    background: #2F303A;
+    border: 1px solid #2196F3;
+    padding: 7px;
 }
 ul {
     padding-left: 0px;
     padding-right: 0px;
 }
+footer h4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+footer .col-3 ul {
+    text-decoration: none;
+}
+footer .col-3 ul li {
+    float: left;
+}
+.info img {
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.info a {
+    display: block;
+}
+footer .socialNetworks {
+    list-style-type: none;
 
+}
+footer .socialNetworks li {
+    float: left;
+}
+.sending input {
+    width: 300px;
+}
+.modal-body form input {
+    width: 100%;
+    border: 1px solid #212121;
+    padding: 15px;
+}
+.modal-body form input {
+    background-repeat: no-repeat;
+    padding-left: 27px;
+    border-radius: 5px;
+    background-position-y: center;
+    background-position-x: 10px;
+}
+.modal-body form .input-group:focus svg {
+    fill: blue;
+}
+.modal-body form input[name="phone"] {
+    background-image: url('images/modalPhone.svg');
+}
+.modal-body form input[name="phone"]:focus {
+    background-image: url('images/phoneHover.svg');
+}
+.modal-body form input[name="mail"] {
+    background-image: url('images/modalMail.svg');
+}
+.modal-body form input[name="mail"] > svg :hover {
+    fill: aqua;
+}
+.modal-body form input[name="agreement"] {
+    width: 3%;
+    margin-top: 5px;
+}
+.modal-header span {
+    border: 1px solid ;
+    border-radius: 50%/50%;
+}
+label[for="agreement"] {
+    color: #757575;
+}
+form[action="data"] p {
+    margin: 0%;
+    margin-top: 10px;
+}

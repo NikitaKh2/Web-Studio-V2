@@ -76,9 +76,8 @@ main a {
     padding: 10px;
     text-decoration: none;
 }
-a :hover {
-    background-color: #2196F3;   
-}
+
+
 .ourProduct{
     text-align: center;
 }
@@ -90,7 +89,6 @@ section.portfolio {
     margin-bottom: 1200px;
 }
 section.portfolio ul li.product {
-    width: 30%;
     list-style-type: none;
     margin-right: 1%;
     margin-bottom: 1%;
@@ -98,6 +96,46 @@ section.portfolio ul li.product {
     float: left;
     border: 1px solid #EEEEEE;
 }
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(33, 150, 243, 0.9);
+}
+.technoKryak {
+    position: relative;
+}
+ul .product img {
+    display: block;
+    width: 370px;
+    height: auto;
+}
+ul .technoKryak:hover .overlay {
+    opacity: 1;
+}
+.text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    width: 100%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 footer {
     background-color: #2F303A;
     padding-right: 0px;
