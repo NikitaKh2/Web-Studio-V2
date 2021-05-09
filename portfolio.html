@@ -17,21 +17,24 @@
             <div class="modal-content">
                 <div class="modal-body">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
+                    <span aria-hidden="true"><img src="images/close.png" alt=""></span>
                     </button>
                     <h2>Оставьте свои данные мы вам перезвоним</h2>
                     <form action="data">
                         <p>Имя</p>
+                        <label for="name"></label>
                         <input type="text" name="name">
                         <p>Телефон</p>
+                        <label for="phone"></label>
                         <input type="text" name="phone">
                         <p>почта</p>
-                        <input type="text" name="mail">
+                        <label for="mail"></label>
+                        <input type="text" name="mail">   
                         <p>Комментарий</p>
                         <input type="text" id="textPlace" name="textPlace" placeholder="Введите текст">
                         <input type="checkbox" id="agreement" name="agreement" value="agreement">
-                        <label for="agreement">Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a></label>
-                        <button type="button" class="btn btn-primary">Отправить</button>
+                        <label for="agreement">Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a></label><br>
+                        <div class="width100"><button type="button" class="btn btn-primary alignCenter">Отправить</button></div>
                     </form>
                 </div>
             </div>
@@ -63,78 +66,99 @@
         </main>
     </section>
     <section class="portfolio">
-        <ul>
-            <li class="product">
-                <div class="technoKryak">
-                    <img src="images/portfolioImg.png" alt="">
-                    <div class="overlay">
-                        <div class="text">
-                            Технокряк это современная площадка распространения коронавируса.
-                            Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="technoKryak">
+                        <img src="images/portfolioImg.png" alt="">
+                        <div class="overlay">
+                            <div class="text">
+                                Технокряк это современная площадка распространения коронавируса.
+                                Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.
+                            </div>
                         </div>
-                    </div>
+                    </div>                
+                    <h3>Технокряк</h3>
+                    <p>Веб-сайт</p>
                 </div>
-                
-                <h3>Технокряк</h3>
-                <p>Веб-сайт</p>
-                
-
+                <div class="col-md-4">
+                    <img src="images/portfolioImg2.png" alt="">
+                    <h3>Постер New Orlean vs Golden Star</h3>
+                    <p>Дизайн</p>
                 </div>
-            </li>
-            <li class="product">
-                <img src="images/portfolioImg2.png" alt="">
-                <h3>Постер New Orlean vs Golden Star</h3>
-                <p>Дизайн</p>
-            </li>
-
-            <li class="product">
-                <img src="images/portfolioImg3.png" alt="">
-                <h3>Ресторан Seafood</h3>
-                <p>Приложение</p>
-            </li>
-        </ul>
-        <ul>
-            <li class="product">
-
-                <img src="images/portfolioImg4.png" alt="">
-                <h3>Проект Prime</h3>
-                <p>Маркетинг</p>
-            </li>
-            <li class="product">
-                <img src="images/portfolioImg5.png" alt="">
-                <h3>Проект Boxes</h3>
-                <p>Приложение</p>
-            </li>
-            <li class="product">
-                <img src="images/portfolioImg6.png" alt="">
-                <h3>Inspiration has no Borders</h3>
-                <p>Веб-сайт</p>
-            </li>
-        </ul>
-        <ul>
-            <li class="product">
-                <img src="images/portfolioImg7.png" alt="">
-                <h3>Издание Limited Edition</h3>
-                <p>Дизайн</p>
-            </li>
-            <li class="product">
-
-                <img src="images/portfolioImg8.png" alt="">
-                <h3>Проект LAB</h3>
-                <p>Маркетинг</p>
-            </li>
-            <li class="product">
-                <img src="images/portfolioImg9.png" alt="">
-                <h3>Growing Business</h3>
-                <p>Приложение</p>
-            </li>
-        </ul>
+                <div class="col-md-4">
+                    <img src="images/portfolioImg3.png" alt="">
+                    <h3>Ресторан Seafood</h3>
+                    <p>Приложение</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/portfolioImg4.png" alt="">
+                    <h3>Проект Prime</h3>
+                    <p>Маркетинг</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/portfolioImg5.png" alt="">
+                    <h3>Проект Boxes</h3>
+                    <p>Приложение</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/portfolioImg6.png" alt="">
+                    <h3>Inspiration has no Borders</h3>
+                    <p>Веб-сайт</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/portfolioImg7.png" alt="">
+                    <h3>Издание Limited Edition</h3>
+                    <p>Дизайн</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/portfolioImg8.png" alt="">
+                    <h3>Проект LAB</h3>
+                    <p>Маркетинг</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/portfolioImg9.png" alt="">
+                    <h3>Growing Business</h3>
+                    <p>Приложение</p>
+                </div>
+            </div>
+        </div>
     </section>
     <footer>
-        <img src="images/logo.png" alt="логотип">
-        <p style="color: #FFFFFF;">г. Киев, пр-т Леси Украинки, 26;</style></p>
-        <p class="grey">info@example.com</p>
-        <p class="grey">+38 099 111 11 11</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-6 info">
+                            <img src="images/logo.png" alt="логотип">
+                            <p style="color: #FFFFFF;">г. Киев, пр-т Леси Украинки, 26;</style></p>
+                            <a href="#"><p class="grey">info@example.com</p></a>
+                            <a href="#"><p class="grey">+38 099 111 11 11</p></a>
+                        </div>
+                        <div class="col-6">
+                            <h4>присоединяйтесь</h4>
+                            <ul class="socialNetworks">
+                                <li><a href="#"><img src="images/instagram.svg" alt="instagram"></a></li>
+                                <li><a href="#"><img src="images/twitter.svg" alt="twitter"></a></li>
+                                <li><a href="#"><img src="images/facebook.svg" alt="facebook"></a></li>
+                                <li><a href="#"><img src="images/linkedIn.svg" alt="linkedIn"></a></li>
+                                </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-6">
+                    <form action="sending" class="sending">
+                        <h4>Подпишитесь на рассылку</h4>
+                        <input type="text" name="Email" placeholder="E-mail">   
+                        <a href="#" class="button">
+                            <span>Подписаться</span>
+                            <img src="images/send.png" alt="icon send" width="18px" height="18px">
+                        </a>    
+                    </form>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

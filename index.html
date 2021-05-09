@@ -22,16 +22,8 @@
                     <h2>Оставьте свои данные мы вам перезвоним</h2>
                     <form action="data">
                         <p>Имя</p>
-                        <div class="input-group w-100">
-                            <span class="input-group-text" id="basic-addon1">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"></path>
-                                </svg>
-                            </span>
-                            <input type="text" class="form-control" placeholder="Пример группы ввода" aria-label="Пример группы ввода" aria-describedby="basic-addon1">
-                          </div>
-                        <label for="name"><img src="images/modalName.svg" alt=""></label>
-                        <input type="text" name="name" placeholder="">
+                        <label for="name"></label>
+                        <input type="text" name="name">
                         <p>Телефон</p>
                         <label for="phone"></label>
                         <input type="text" name="phone">
@@ -41,8 +33,8 @@
                         <p>Комментарий</p>
                         <input type="text" id="textPlace" name="textPlace" placeholder="Введите текст">
                         <input type="checkbox" id="agreement" name="agreement" value="agreement">
-                        <label for="agreement">Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a></label>
-                        <button type="button" class="btn btn-primary">Отправить</button>
+                        <label for="agreement">Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a></label><br>
+                        <div class="width100"><button type="button" class="btn btn-primary alignCenter">Отправить</button></div>
                     </form>
                 </div>
             </div>
@@ -72,107 +64,131 @@
         <a href="#" class="button">Заказать услугу</a>
     </div>
     <main>
-        <div class="container">
-            <div class="row">
-                <div class="col-3">
-                    <p class="photo"><img src="images/feature1.png" alt="feature"></p>
-                    <h3>Внимание к деталям</h3>
-                    <br>
-                    <p class="grey">
-                        Идейные соображения, а также начало повседневной работы по формированию позиции.
-                    </p>
-                </div>
-                <div class="col-3">
-                    <p class="photo"><img src="images/feature2.png" alt="feature"></p>
-                    <h3>Пунктуальность</h3>
-                    <br>
-                    <p class="grey">
-                        Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
-                    </p>
-                </div>
-                <div class="col-3">
-                    <p class="photo"><img src="images/feature3.png" alt="feature"></p>
-                    <h3>Планирование</h3>
-                    <br>
-                    <p class="grey">
-                        Равным образом консультация с широким активом в значительной степени обуславливает.
-                </div>
-                <div class="col-3">
-                    <p class="photo"><img src="images/feature4.png" alt="feature"></p>
-                    <h3>Современные технологии</h3>
-                    <br>
-                    <p class="grey">
-                        Значимость этих проблем настолько очевидна, что реализация плановых заданий.
-                    </p>
-                </div>
-        </ul>
-        <div><h2>Чем мы занимаемся</h2></div>
-        <div class="container gallary">
-            <div class="row">
-                <div class="col-4">
-                    <img src="images/whatWeDo.png" alt="картинка" width="330" height="auto">
-                    <div class="description">
-                        <p>Десктопные приложения</p>
+        <section class="info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <p class="photo"><img src="images/feature1.png" alt="feature"></p>
+                        <h3>Внимание к деталям</h3>
+                        <br>
+                        <p class="grey">
+                            Идейные соображения, а также начало повседневной работы по формированию позиции.
+                        </p>
                     </div>
-                </div>
-                <div class="col-4">
-                    <img src="images/whatWeDo2.png" alt="картинка" width="330" height="auto">
-                    <div class="description">
-                        <p>Мобильные приложения</p>
+                    <div class="col-md-3">
+                        <p class="photo"><img src="images/feature2.png" alt="feature"></p>
+                        <h3>Пунктуальность</h3>
+                        <br>
+                        <p class="grey">
+                            Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+                        </p>
                     </div>
-                </div>
-                <div class="col-4">
-                    <img src="images/whatWeDo3.png" alt="картинка" width="330" height="auto">
-                    <div class="description">
-                        <p>Дизайнерские решения</p>
+                    <div class="col-md-3">
+                        <p class="photo"><img src="images/feature3.png" alt="feature"></p>
+                        <h3>Планирование</h3>
+                        <br>
+                        <p class="grey">
+                            Равным образом консультация с широким активом в значительной степени обуславливает.
+                    </div>
+                    <div class="col-md-3">
+                        <p class="photo"><img src="images/feature4.png" alt="feature"></p>
+                        <h3>Современные технологии</h3>
+                        <br>
+                        <p class="grey">
+                            Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+                        </p>
                     </div>
                 </div>
             </div>
-        </div> 
-        <section class="team">
-            <h2>Наша команда</h2>
-            <ul>
-                <li>
-                    <img src="images/ourTeam.png" alt="мужчина" class="worker" class="left" class="width">
-                    <h5>Игорь Демченко</h5>
-                    <p class="grey">Product Designer</p>
-                    <a style="margin-left: 30%;"><img src="images/instagram.svg" alt="social ne work" width="20"></a>
-                    <a><img src="images/twitter.svg" alt="social net ork" width="20"></a>
-                    <a><img src="images/facebook.svg" alt="social network" width="20"></a>
-                    <a><img src="images/linkedIn.svg" alt="social network" width="20"></a>
-                </li>
-                <li>
-                    <img src="images/ourTeam2.png" alt="женщина" class="worker" class="width">
-                    <h5>Ольга Репина</h5>
-                    <p class="grey">Frontend Developer</p>
-                    <a style="margin-left: 30%;"><img src="images/instagram.svg" alt="social ne work" width="20"></a>
-                    <a><img src="images/twitter.svg" alt="social net ork" width="20"></a>
-                    <a><img src="images/facebook.svg" alt="social network" width="20"></a>
-                    <a><img src="images/linkedIn.svg" alt="social network" width="20"></a>
-                </li>
-                <li>
-                    <img src="images/ourTeam3.png" alt="мужчина" class="worker" class="width">
-                    <h5>Николай Тарасов</h5>
-                    <p class="grey">Marketing</p>
-                    <a style="margin-left: 30%;"><img src="images/instagram.svg" alt="social ne work" width="20"></a>
-                    <a><img src="images/twitter.svg" alt="social net ork" width="20"></a>
-                    <a><img src="images/facebook.svg" alt="social network" width="20"></a>
-                    <a><img src="images/linkedIn.svg" alt="social network" width="20"></a>
-                </li>
-                <li>
-                    <img src="images/OurTeam4.png" alt="мужчина" class="worker" class="width">
-                    <h5>Михаил Ермаков</h5>
-                    <p class="grey">UI Designer</p>
-                    <a style="margin-left: 30%;"><img src="images/instagram.svg" alt="social ne work" width="20"></a>
-                    <a><img src="images/twitter.svg" alt="social net ork" width="20"></a>
-                    <a><img src="images/facebook.svg" alt="social network" width="20"></a>
-                    <a><img src="images/linkedIn.svg" alt="social network" width="20"></a>
-                </li>
-            </ul>
         </section>
-        <section class="client">
-            <h3>Постоянные клиенты</h3>
+        <section class="gallery">
             <div class="container">
+                <div class="title"><h2>Чем мы занимаемся</h2></div>
+                <div class="container gallaryPic">           
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="reletive">
+                                <img src="images/whatWeDo.png" alt="картинка" width="100%" height="auto">
+                                <div class="description">
+                                    <p>Десктопные приложения</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="reletive">
+                                <img src="images/whatWeDo2.png" alt="картинка" width="100%" height="auto">
+                                <div class="description">
+                                    <p>Мобильные приложения</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="reletive">
+                                <img src="images/whatWeDo3.png" alt="картинка" width="100%" height="auto">
+                                <div class="description">
+                                    <p>Дизайнерские решения</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <section class="team">
+            <div class="container">
+                <div class="title"><h2>Наша команда</h2></div>
+                <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="images/ourTeam.png" alt="мужчина" class="worker" class="left" class="width">
+                        <div class="color">
+                            <h5>Игорь Демченко</h5>
+                            <p class="grey">Product Designer</p>
+                            <a><img src="images/instagram.svg" alt="social ne work" width="20"></a>
+                            <a><img src="images/twitter.svg" alt="social net ork" width="20"></a>
+                            <a><img src="images/facebook.svg" alt="social network" width="20"></a>
+                            <a><img src="images/linkedIn.svg" alt="social network" width="20"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images/ourTeam2.png" alt="женщина" class="worker" class="width">
+                        <div class="color">
+                            <h5>Ольга Репина</h5>
+                            <p class="grey">Frontend Developer</p>
+                            <a><img src="images/instagram.svg" alt="social ne work" width="20"></a>
+                            <a><img src="images/twitter.svg" alt="social net ork" width="20"></a>
+                            <a><img src="images/facebook.svg" alt="social network" width="20"></a>
+                            <a><img src="images/linkedIn.svg" alt="social network" width="20"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images/ourTeam3.png" alt="мужчина" class="worker" class="width">
+                        <div class="color">
+                            <h5>Николай Тарасов</h5>
+                            <p class="grey">Marketing</p>
+                            <a><img src="images/instagram.svg" alt="social ne work" width="20"></a>
+                            <a><img src="images/twitter.svg" alt="social net ork" width="20"></a>
+                            <a><img src="images/facebook.svg" alt="social network" width="20"></a>
+                            <a><img src="images/linkedIn.svg" alt="social network" width="20"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images/OurTeam4.png" alt="мужчина" class="worker" class="width">
+                        <div class="color">
+                            <h5>Михаил Ермаков</h5>
+                            <p class="grey">UI Designer</p>
+                            <a><img src="images/instagram.svg" alt="social ne work" width="20"></a>
+                            <a><img src="images/twitter.svg" alt="social net ork" width="20"></a>
+                            <a><img src="images/facebook.svg" alt="social network" width="20"></a>
+                            <a><img src="images/linkedIn.svg" alt="social network" width="20"></a>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <section class="clients">
+            <div class="container">
+                <div class="title"><h2>Постоянные клиенты</h2></div>
+                <div class="container clientList">
                 <div class="row">
                     <div class="col-2"><a href="#"><img src="images/Client1.svg" alt=""></a></div>
                     <div class="col-2"><a href="#"><img src="images/Client2.svg" alt=""></a></div>
@@ -180,7 +196,9 @@
                     <div class="col-2"><a href="#"><img src="images/Client4.svg" alt=""></a></div>
                     <div class="col-2"><a href="#"><img src="images/Client5.svg" alt=""></a></div>
                     <div class="col-2"><a href="#"><img src="images/Client6.svg" alt=""></a></div>
+                </div>
             </div>
+        </section>
     </main>
     <footer>
         <div class="container">
