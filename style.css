@@ -132,6 +132,11 @@ main ul li p {
 }
 .description {
     position: absolute;
+    width: 100%;
+    top: 90%;
+    background: rgba(47, 48, 58, 0.8);
+    margin: 5px;
+    padding: 5px;
 }
 .grey {
     color: #757575;
@@ -141,9 +146,6 @@ main h3 {
 }
 h2 {
     text-align: center;
-}
-.ourWork{
-    width: 33%;
 }
 main h2 {
     font-weight: 700;
